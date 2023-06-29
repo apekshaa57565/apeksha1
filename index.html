@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Website - Bio</title>
+    <!-- Include Font Awesome or Material Icons CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- Or -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" /> -->
+    <style>
+        body {
+            background-color: #f9f9f9;
+            color: #000000;
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            font-family: "Times New Roman", serif;
+            font-size: 50px;
+            color: #0eb291;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            font-size: 24px;
+            font-family: "Times New Roman", serif;
+            text-align: center;
+            margin: 10px auto;
+            line-height: 1.5;
+            color: #000000;
+        }
+
+        .nav-buttons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .nav-buttons button {
+            font-size: 24px;
+            padding: 10px 20px;
+            font-family: "Times New Roman", serif;
+            color: #000000;
+            background-color: #0eb291;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-buttons button:hover {
+            background-color: #0ed48b;
+        }
+
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 150px);
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .center-content span {
+            font-weight: bold;
+            color: #3366cc;
+        }
+        
+        /* Additional Styling */
+        .center-content p:first-child {
+            font-size: 28px;
+            color: #ff5722;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .center-content p:last-child {
+            font-size: 20px;
+            color: #000000;
+            margin-top: 30px;
+        }
+        
+        .center-content a {
+            color: #0eb291;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        
+        .center-content a:hover {
+            color: #070707;
+        }
+        
+        /* Flexbox Layout */
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        .flex-container .flex-item {
+            flex-basis: calc(50% - 15px);
+        }
+        
+        /* Responsive Styling */
+        @media (max-width: 768px) {
+            .flex-container {
+                flex-direction: column;
+            }
+            
+            .flex-container .flex-item {
+                flex-basis: 100%;
+                margin-bottom: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Apeksha A</h1>
+
+    <div class="nav-buttons">
+        <button onclick="location.href='index.html'"><i class="fas fa-user"></i> Bio</button>
+        <button onclick="location.href='qualification.html'"><i class="fas fa-graduation-cap"></i> Qualifications</button>
+        <button onclick="location.href='achievement.html'"><i class="fas fa-trophy"></i> Achievements</button>
+        <button onclick="location.href='hobbies.html'"><i class="fas fa-heart"></i> Hobbies</button>
+        <button onclick="location.href='gallery.html'"><i class="fas fa-images"></i> Photo Gallery</button>
+        <button onclick="location.href='contact.html'"><i class="fas fa-envelope"></i> Contact</button>
+    </div>
+
+    <!-- Bio Page Content -->
+    <section>
+        <div class="center-content">
+            <div class="flex-container">
+                <div class="flex-item">
+                    <p>Hey there! I am Apeksha! Welcome to my personal website. Here you can find information about me and get to know me.
+                        I am an Engineering student currently pursuing 3rd year CSE.</p>
+                </div>
+                <div class="flex-item">
+                    <p>If you have any questions or would like to get in touch, please feel free to contact me through the details provided in the <a href="contact.html">Contact</a> page.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Include Font Awesome JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <!-- Default Statcounter code for My Website
+http://C:/Users/Admin/Desktop/ape/index.html -->
+<script type="text/javascript">
+    var sc_project=12895765; 
+    var sc_invisible=0; 
+    var sc_security="4f005569"; 
+    var scJsHost = "https://";
+    document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
+    "statcounter.com/counter/counter.js'></"+"script>");
+    </script>
+    <noscript><div class="statcounter"><a title="Web Analytics Made Easy -
+    Statcounter" href="https://statcounter.com/" target="_blank"><img
+    class="statcounter" src="https://c.statcounter.com/12895765/0/4f005569/0/"
+    alt="Web Analytics Made Easy - Statcounter"
+    referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+    <!-- End of Statcounter Code -->
+    <a href="https://statcounter.com/p12895765/?guest=1">View My Stats</a>
+</body>
+</html>
